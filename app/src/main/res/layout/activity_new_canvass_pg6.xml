@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uk.co.ianvallely.canvasstool.NewCanvassPg6">
+
+    <TextView
+        android:id="@+id/q5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="@string/q5"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintHorizontal_bias="0.356"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="40dp" />
+
+    <RadioButton
+        android:id="@+id/rButtonNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="@string/q6_Now"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/q5"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="29dp" />
+
+    <RadioButton
+        android:id="@+id/rButtonAfterBrexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:textSize="12pt"
+        android:text="@string/q6_afterBrexit"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rButtonNow"
+        android:layout_marginTop="20dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="29dp" />
+
+    <RadioButton
+    android:id="@+id/radioButtonFiveYrs"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="12pt"
+    android:text="@string/q6_fiveYrs"
+    tools:layout_constraintTop_creator="1"
+    android:layout_marginStart="29dp"
+    android:layout_marginTop="20dp"
+    app:layout_constraintTop_toBottomOf="@+id/rButtonAfterBrexit"
+    tools:layout_constraintLeft_creator="1"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:layout_marginLeft="29dp" />
+
+    <RadioButton
+        android:id="@+id/radioButtonLater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="@string/q6_later"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtonFiveYrs"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="29dp" />
+
+    <RadioButton
+        android:id="@+id/radioButtonNever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="@string/q6_never"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtonLater"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="29dp" />
+
+</android.support.constraint.ConstraintLayout>

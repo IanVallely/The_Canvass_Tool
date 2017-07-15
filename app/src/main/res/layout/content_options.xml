@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="uk.co.ianvallely.canvasstool.Options"
+    tools:showIn="@layout/activity_options"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/optionIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userInf"
+        android:textSize="10pt"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="10pt"
+        android:layout_marginStart="10dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/optionIntro"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="group"
+        android:textSize="10pt"
+        app:layout_constraintTop_toBottomOf="@+id/optionIntro"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="16dp"/>
+
+
+    <Button
+        android:id="@+id/new_Canvass"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:text="@string/new_canvass"
+        android:textColor="@color/colorWhite"
+        android:textSize="12pt"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/group_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <ImageView
+        android:id="@+id/imageBanner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/bannerii"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Button
+        android:id="@+id/buttonMail"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:text="@string/btn_mail"
+        android:textColor="@color/colorWhite"
+        android:textSize="12pt"
+        android:background="@color/colorAccent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/new_Canvass"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/buttonchangeUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_user"
+        android:textColor="@color/colorWhite"
+        android:textSize="10pt"
+        android:background="@color/colorAccent"
+        app:layout_constraintRight_toLeftOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/imageBanner"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>

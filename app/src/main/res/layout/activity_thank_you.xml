@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uk.co.ianvallely.canvasstool.ThankYou">
+
+    <TextView
+        android:id="@+id/textThanks"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Thanks_canvass"
+        android:textSize="12pt"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintHorizontal_bias="0.356"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="40dp" />
+
+    <Button
+        android:id="@+id/new_Canvass"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:text="@string/another_canvass"
+        android:textColor="@color/colorWhite"
+        android:textSize="12pt"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginTop="129dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/btn_home"
+        android:textColor="@color/colorWhite"
+        android:textSize="12pt"
+        android:background="@color/colorAccent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="42dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Canvass Tool</string>
+    <string name="welcome">Thank you for using the Canvass App, please enter your name to continue.</string>
+    <string name="user">Enter Name</string>
+    <string name="thanks">Thank You</string>
+    <string name="userInf">You are logged in as : </string>
+    <string name="btn_cont">Continue</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_mail">Send completed session by email</string>
+    <string name="btn_submit">Submit</string>
+    <string name="new_canvass">Start Canvass</string>
+    <string name="another_canvass">Do another canvass </string>
+    <string name="address1">first line of address</string>
+    <string name="postcode">Postecode</string>
+    <string name="title_activity_options">Options</string>
+    <string name="respondandInfHead">Why do we ask for this information?</string>
+    <string name="dataInfhead">Data Protection</string>
+    <string name="respondandInfContent">By supplying your name and address we will be able to set contact preferences for you.
+        We will abide by this and the flag will only be changed against your name if you expressly request it.
+        Whether it\'s "Please don't bother me again" in which case we will know not to knock your door or deliver leaflets
+        to your address.
+        The survey will also give you the option to receive newsletters from us or Join the Group.</string>
+    <string name="dataInf">We will not share your data with any other groups or organisations.
+        We will not sell your data under any circumstances.
+        Any personal data supplied by you will only be used by us to set your preferences.</string>
+    <string name="title_activity_new_canvass_session">NewCanvassSession</string>
+    <string name="q1">How did you vote in the 2014 independence referendum?</string>
+    <string name="q2">Do you know how you will vote in the next independence referendum?</string>
+    <string name="q3">How did you vote in the Brexit referendum?</string>
+    <string name="q4">When do you think another referendum should be called?</string>
+    <string name="q5">When do you think another referendum should be called?</string>
+    <string name="q6">Would you consider joining Yes Ross | Sutherland?</string>
+    <string name="del1">This page gives you the option to delete the main collected data file,
+                        use this after email is confirmed sent, your now ready to start a fresh canvass session.</string>
+    <string name="del2">When you email a data file the file is automatically backed up,
+                        delete this backup file when you are confident your data has been received and saved elsewhere.</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="q6_Now">Now</string>
+    <string name="q6_afterBrexit">After Brexit</string>
+    <string name="q6_fiveYrs">In the next 5 years</string>
+    <string name="q6_later">Later</string>
+    <string name="q6_never">Never</string>
+    <string name="btn_Del1">Delete Main Data File</string>
+    <string name="btn_del2">Delete Backup Data File</string>
+    <string name="newsletter">Would you like to receive occasional newsletters from ***?</string>
+    <string name="joun">Would you consider joining *** group?</string>
+    <string name="block">By checking this box YES Ross|Sutherland will not contact you again unless by your request. We will not call or leaflet your door.</string>
+    <string name="Thanks_canvass">Thank you, your results have been saved.</string>
+    <string name="start_New">Never</string>
+    <string name="change_user">Change User/Log out</string>
+    <string name="title_activity_set_new_canvass">SetNewCanvass</string>
+    <string name="newCanvassIntro">Here you can create a new Campaign, set the email recipient for results and up to five questions.<br />Begin by creating a name for the Campaign. </string>
+    <string name="action_settings">Settings</string>
+    <string name="joinInf">By supplying an email address your membership will be created, please look out for an email to confirm membership and reset password. If you do not see an email please check your spam or junk folder.</string>
+    <string name="groupName">Group Name</string>
+    <string name="group_email">Group email</string>
+    <string name="group_setupIntro">To setup your group on the app simply complete the name of your group and an email address to forward results to.</string>
+
+
+</resources>
